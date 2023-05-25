@@ -22,7 +22,7 @@ It will serve as a program for users to catalog things they need for upcoming ca
 * Run `dotnet watch run` in the command line to start the project in development mode with a watcher.
 * Open the browser to _https://localhost:5001_. 
 * You can enter the information of types of travel, and see the final tracked information.
-* To optionally run the test, open your shell (e.g., Terminal or GitBash) and navigate to this project's test directory called "VendorOrderTracker.Tests".
+* To optionally run the test, open your shell (e.g., Terminal or GitBash) and navigate to this project's test directory called "PackerTracker.Tests".
 * Run `dotnet test` in the command line invoke MSTest to run tests. The results of running the tests will appear in the terminal.
 
 ## Known Bugs
