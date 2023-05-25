@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Packing List!</title>
+    <link 
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+      rel="stylesheet" 
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+      crossorigin="anonymous">
+  </head>
+  <body>
+  
+    <form action="/items" method="post">
+      <label for="name">Add a new item to take on your camping trip!</label>
+      <input id="name" name="name" type="text">
+      <label for="price">Add a price!</label>
+      <input id="price" name="price" type="text">
+      <label for="status">please type "yes" or "no"?</label>
+      <input id="status" name="status" type="text">
+      <label for="weight">Enter item weight</label>
+      <input id="weight" name="weight" type="text">
+      <label for="ready">Please type "Packed" or "Not Packed"</label>
+      <input id="ready" name="ready" type="text">
+      
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
